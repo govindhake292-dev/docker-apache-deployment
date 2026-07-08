@@ -1,1 +1,273 @@
-<h1>Polling Test - Day 4</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevOps CI/CD Pipeline</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#0f172a,#1e3a8a,#2563eb);
+padding:20px;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+color:#d1d5db;
+margin-bottom:40px;
+line-height:1.6;
+}
+
+button{
+padding:15px 35px;
+font-size:18px;
+background:#38bdf8;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+background:#0ea5e9;
+transform:translateY(-3px);
+}
+
+section{
+padding:80px 10%;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+color:#38bdf8;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.card{
+background:#1e293b;
+padding:30px;
+border-radius:15px;
+text-align:center;
+transition:.4s;
+border:1px solid #334155;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 15px 35px rgba(56,189,248,.25);
+}
+
+.card h3{
+margin:20px 0;
+color:#38bdf8;
+}
+
+.card p{
+color:#cbd5e1;
+line-height:1.6;
+}
+
+.pipeline{
+
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+
+}
+
+.step{
+
+background:#1e293b;
+padding:18px 30px;
+border-radius:10px;
+font-weight:bold;
+border-left:5px solid #38bdf8;
+
+}
+
+footer{
+
+background:#020617;
+padding:40px;
+text-align:center;
+color:#94a3b8;
+
+}
+
+.version{
+
+margin-top:30px;
+font-size:24px;
+color:#22c55e;
+font-weight:bold;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="hero">
+
+<h1>🚀 DevOps CI/CD Pipeline</h1>
+
+<p>
+Automated Website Deployment using
+<br>
+<b>Jenkins • GitHub • Docker • Apache • RHEL 8</b>
+</p>
+
+<button>Deployment Successful ✅</button>
+
+<div class="version">
+Version 1.0
+</div>
+
+</div>
+
+</header>
+
+<section>
+
+<h2 class="title">Technology Stack</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🐧 Linux</h3>
+<p>Red Hat Enterprise Linux 8 for server administration.</p>
+</div>
+
+<div class="card">
+<h3>🐙 GitHub</h3>
+<p>Stores the latest version of the application source code.</p>
+</div>
+
+<div class="card">
+<h3>⚙ Jenkins</h3>
+<p>Automates Continuous Integration and Continuous Deployment.</p>
+</div>
+
+<div class="card">
+<h3>🐳 Docker</h3>
+<p>Runs the Apache web server inside a lightweight container.</p>
+</div>
+
+<div class="card">
+<h3>🌐 Apache</h3>
+<p>Hosts and serves the static website.</p>
+</div>
+
+<div class="card">
+<h3>🚀 CI/CD</h3>
+<p>Automatically deploys every new version from GitHub.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Deployment Workflow</h2>
+
+<div class="pipeline">
+
+<div class="step">Developer</div>
+
+<div class="step">Git Push</div>
+
+<div class="step">GitHub</div>
+
+<div class="step">Jenkins</div>
+
+<div class="step">Docker</div>
+
+<div class="step">Apache</div>
+
+<div class="step">Live Website</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Project Highlights</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>✔ Automated Deployment</h3>
+<p>Every build deploys the latest application without manual Docker commands.</p>
+</div>
+
+<div class="card">
+<h3>✔ Dockerized Website</h3>
+<p>The website runs inside an Apache Docker container.</p>
+</div>
+
+<div class="card">
+<h3>✔ GitHub Integration</h3>
+<p>Jenkins always downloads the latest source code from GitHub.</p>
+</div>
+
+<div class="card">
+<h3>✔ Built on RHEL 8</h3>
+<p>Complete CI/CD pipeline implemented on Red Hat Enterprise Linux.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>Developed by Govind Hake</h2>
+
+<p>DevOps Engineer | Java Developer | Cloud Enthusiast</p>
+
+<br>
+
+<p>CI/CD Pipeline Project using Jenkins, GitHub, Docker & Apache</p>
+
+</footer>
+
+</body>
+</html>
